@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raiz Barbearia | Estilo, Confiança e Atitude</title>
+<meta name="description" content="Raiz Barbearia - cortes clássicos, barba desenhada e barboterapia em Chapecó - SC.">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Fontes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- CSS próprio -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-raiz sticky-top py-2">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/image3.png" alt="Logo Raiz Barbearia">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto text-center gap-2">
+        <li class="nav-item"><a class="nav-link active" href="index.html#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="empresa.html">Empresa</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#depoimentos">Depoimentos</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO / CARROSSEL -->
+<header id="home" class="position-relative">
+  <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active position-relative" style="background-image:url('img/image7.jpeg');">
+        <div class="carousel-caption text-start text-white">
+          <p class="section-kicker mb-1">ROYAL BARBEARIA</p>
+          <h1 class="brand-font">Corte Degradê que respeita seu estilo</h1>
+          <p class="fs-5 d-none d-md-block">Técnica apurada e atendimento sem pressa, do jeito que a barbearia clássica sempre fez.</p>
+          <a href="servico1.html" class="btn btn-gold btn-lg mt-2">Ver serviço</a>
+        </div>
+      </div>
+      <div class="carousel-item position-relative" style="background-image:url('img/image8.jpeg');">
+        <div class="carousel-caption text-start text-white">
+          <p class="section-kicker mb-1">PROMOÇÃO DO MÊS</p>
+          <h1 class="brand-font">Barba Desenhada na navalha</h1>
+          <p class="fs-5 d-none d-md-block">Modelagem completa com alinhamento perfeito para o formato do seu rosto.</p>
+          <a href="servico2.html" class="btn btn-gold btn-lg mt-2">Ver serviço</a>
+        </div>
+      </div>
+      <div class="carousel-item position-relative" style="background-image:url('img/image9.jpeg');">
+        <div class="carousel-caption text-start text-white">
+          <p class="section-kicker mb-1">EXPERIÊNCIA COMPLETA</p>
+          <h1 class="brand-font">Barboterapia Tradicional</h1>
+          <p class="fs-5 d-none d-md-block">Toalha quente, espuma e massagem facial: o ritual mais pedido da casa.</p>
+          <a href="servico3.html" class="btn btn-gold btn-lg mt-2">Ver serviço</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</header>
+
+<!-- TEASER EMPRESA -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-6">
+        <p class="section-kicker">DESDE 2023 EM CHAPECÓ</p>
+        <h2 class="section-title">Roayl Barbearia</h2>
+        <p class="fs-5">A Royal Cut nasceu na casinha de fundo de uma casa alugada no bairro Centro, quando o barbeiro Marcelo Raiz decidiu transformar o hobby de cortar o cabelo dos amigos em um negócio de verdade. Hoje somos referência em cuidado masculino em Chapecó.</p>
+        <a href="empresa.html" class="btn btn-outline-dark">Conheça nossa história <i class="bi bi-arrow-right"></i></a>
+      </div>
+      <div class="col-lg-6">
+        <img src="img/image4.jpeg" class="img-fluid rounded shadow" alt="Barbeiro da Raiz Barbearia atendendo cliente">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATÁLOGO DE SERVIÇOS -->
+<section id="servicos" class="py-5 bg-navy">
+  <div class="container">
+    <div class="text-center mb-5">
+      <p class="section-kicker text-gold">O QUE FAZEMOS</p>
+      <h2 class="section-title text-white">Catálogo de Serviços</h2>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card card-service h-100">
+          <img src="img/image7.jpeg" class="card-img-top" alt="Corte Degradê">
+          <div class="card-body">
+            <h3 class="h4">Corte Degradê</h3>
+            <p class="text-muted">Transição suave entre laterais raspadas e o volume do topo, com lavagem e finalização.</p>
+            <p class="price-tag">R$ 60,00</p>
+          </div>
+          <div class="card-footer bg-white border-0 pb-3 d-grid">
+            <a href="servico1.html" class="btn btn-gold">Solicitar orçamento</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-service h-100">
+          <img src="img/image8.jpeg" class="card-img-top" alt="Barba Desenhada">
+          <div class="card-body">
+            <h3 class="h4">Barba Desenhada</h3>
+            <p class="text-muted">Modelagem completa da barba com navalha, alinhamento de contorno e finalização com óleo.</p>
+            <p class="price-tag">R$ 45,00</p>
+          </div>
+          <div class="card-footer bg-white border-0 pb-3 d-grid">
+            <a href="servico2.html" class="btn btn-gold">Solicitar orçamento</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-service h-100">
+          <img src="img/image9.jpeg" class="card-img-top" alt="Barba na Toalha Quente">
+          <div class="card-body">
+            <h3 class="h4">Barba na Toalha Quente</h3>
+            <p class="text-muted">Ritual completo de barboterapia tradicional: toalha quente, espuma, navalha e massagem facial.</p>
+            <p class="price-tag">R$ 70,00</p>
+          </div>
+          <div class="card-footer bg-white border-0 pb-3 d-grid">
+            <a href="servico3.html" class="btn btn-gold">Solicitar orçamento</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos" class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <p class="section-kicker">QUEM PASSA PELA CADEIRA</p>
+      <h2 class="section-title">Depoimentos</h2>
+    </div>
+
+    <div id="depoimentosCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-5">
+              <div class="testimonial-card">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <img src="img/image10.jpeg" class="testimonial-avatar" alt="Rodrigo Almeida">
+                  <div>
+                    <strong>Rodrigo Almeida</strong>
+                    <div class="text-muted small">12/07/2026</div>
+                  </div>
+                </div>
+                <p class="mb-0 fst-italic">"Corto o cabelo na Raiz desde que abriu. Já tentei outras barbearias na cidade e sempre volto — o Marcelo entende exatamente o que eu quero."</p>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="testimonial-card">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <img src="img/image11.jpeg" class="testimonial-avatar" alt="Fernanda Lima">
+                  <div>
+                    <strong>Fernanda Lima</strong>
+                    <div class="text-muted small">03/06/2026</div>
+                  </div>
+                </div>
+                <p class="mb-0 fst-italic">"Comprei um vale-presente de barboterapia para o aniversário do meu marido e ele não parou de falar da experiência. Ambiente muito acolhedor."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-5">
+              <div class="testimonial-card">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <img src="img/image12.jpeg" class="testimonial-avatar" alt="Eduardo Zanella">
+                  <div>
+                    <strong>Eduardo Zanella</strong>
+                    <div class="text-muted small">22/04/2026</div>
+                  </div>
+                </div>
+                <p class="mb-0 fst-italic">"Sou grisalho e sempre tive receio de mexer na barba. O Gabriel foi paciente, explicou cada etapa do desenho e o resultado ficou natural. Virei cliente fiel."</p>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="testimonial-card">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <div class="testimonial-avatar-fallback">TS</div>
+                  <div>
+                    <strong>Thiago Souza</strong>
+                    <div class="text-muted small">28/03/2026</div>
+                  </div>
+                </div>
+                <p class="mb-0 fst-italic">"Ambiente muito bem cuidado e horário sempre respeitado. O corte degradê ficou exatamente como eu pedi, sem precisar explicar duas vezes."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-5">
+              <div class="testimonial-card">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <div class="testimonial-avatar-fallback">CM</div>
+                  <div>
+                    <strong>Carlos Menezes</strong>
+                    <div class="text-muted small">15/02/2026</div>
+                  </div>
+                </div>
+                <p class="mb-0 fst-italic">"Já indiquei a Raiz pra vários amigos. Atendimento pontual e a Juliana entende muito de coloração masculina, ficou super natural."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#depoimentosCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" style="filter:invert(1) grayscale(1);"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#depoimentosCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" style="filter:invert(1) grayscale(1);"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG TEASER -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <p class="section-kicker">DICAS DA CADEIRA</p>
+      <h2 class="section-title">Do blog da Raiz</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <a href="blog.html#post-tendencias-barba-2026" class="text-decoration-none text-reset">
+          <div class="card card-service h-100">
+            <img src="img/image13.jpeg" alt="Tendências de barba para 2026" style="height:220px; object-fit:cover;">
+            <div class="card-body">
+              <p class="text-muted small mb-1">05/08/2026 &middot; Marcelo Raiz</p>
+              <h3 class="h5">Tendências de Barba para 2026: o que vem por aí</h3>
+              <p class="mb-0 text-muted">Do cavanhaque bem definido à barba grisalha assumida, veja o que está pautando as cadeiras da Raiz.</p>
+              <span class="text-gold-dark fw-semibold d-inline-block mt-2">Ler no blog <i class="bi bi-arrow-right"></i></span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6">
+        <a href="blog.html#post-cortes-masculinos-2026" class="text-decoration-none text-reset">
+          <div class="card card-service h-100">
+            <img src="img/image14.jpeg" alt="Cortes masculinos que vão dominar as barbearias em 2026" style="height:220px; object-fit:cover;">
+            <div class="card-body">
+              <p class="text-muted small mb-1">18/07/2026 &middot; Equipe Raiz Barbearia</p>
+              <h3 class="h5">Cortes Masculinos que Vão Dominar as Barbearias em 2026</h3>
+              <p class="mb-0 text-muted">Texturas naturais, degradês suaves e o papel das referências visuais na conversa com o barbeiro.</p>
+              <span class="text-gold-dark fw-semibold d-inline-block mt-2">Ler no blog <i class="bi bi-arrow-right"></i></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="blog.html" class="btn btn-outline-gold">Ver todos os posts</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="py-5 bg-navy text-center">
+  <div class="container">
+    <h2 class="text-white section-title">Marque seu horário</h2>
+    <p class="text-white-50 fs-5 mb-4">Terça a sábado, das 9h às 20h — Av. Fernando Machado, 963d, Centro, Chapecó - SC</p>
+    <a href="https://wa.me/5549999911206" target="_blank" class="btn btn-gold btn-lg"><i class="bi bi-whatsapp"></i> Chamar no WhatsApp</a>
+  </div>
+</section>
+
+<!-- MAPA -->
+<section class="pb-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <p class="section-kicker">COMO CHEGAR</p>
+      <h2 class="section-title">Nossa localização</h2>
+    </div>
+    <div class="map-embed">
+      <iframe
+        src="https://maps.google.com/maps?q=Av.+Fernando+Machado,+963d,+Centro,+Chapec%C3%B3+-+SC,+89802-111&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="Localização da Raiz Barbearia no mapa"></iframe>
+    </div>
+    <div class="text-center mt-3">
+      <a href="https://www.google.com/maps/search/?api=1&query=Av.+Fernando+Machado,+963d,+Centro,+Chapec%C3%B3+-+SC,+89802-111" target="_blank" class="btn btn-outline-gold">
+        <i class="bi bi-signpost-2"></i> Abrir no Google Maps
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img src="img/image1.png" alt="Logo Raiz Barbearia" style="height:70px;">
+        <p class="mt-3 mb-0">"Estilo, Confiança e Atitude."</p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="text-gold">Navegação</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="empresa.html">Empresa</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 class="text-gold">Contato</h5>
+        <p class="mb-1"><i class="bi bi-geo-alt"></i> Av. Fernando Machado, 963d — Centro, Chapecó - SC</p>
+        <p class="mb-1"><i class="bi bi-telephone"></i> (49) 499919-11206</p>
+        <p class="mb-1"><i class="bi bi-envelope"></i> erikricardorodrigues@gmail.com</p>
+        <div class="mt-2 fs-5">
+          <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/5549999911206" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-secondary my-4">
+    <p class="text-center mb-0 small">Desenvolvido por <strong>Erik Ricardo Rodrigues Carvalho</strong> — UNOESC Chapecó, Turma CHASIS-02 &middot; &copy; 2026 Raiz Barbearia</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/5549999911206" target="_blank" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

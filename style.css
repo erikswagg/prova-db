@@ -1,0 +1,258 @@
+:root {
+  --raiz-navy: #021943;
+  --raiz-navy-light: #0a2a63;
+  --raiz-gold: #f2d48b;
+  --raiz-gold-dark: #d9b563;
+  --raiz-cream: #faf6ee;
+  --raiz-ink: #17140f;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  color: var(--raiz-ink);
+  background-color: var(--raiz-cream);
+}
+
+h1, h2, h3, h4, .brand-font {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.navbar-raiz {
+  background-color: var(--raiz-navy);
+}
+
+.navbar-raiz .navbar-brand img {
+  height: 48px;
+}
+
+.navbar-raiz .nav-link {
+  color: var(--raiz-gold) !important;
+  font-size: 1.05rem;
+}
+
+.navbar-raiz .nav-link:hover,
+.navbar-raiz .nav-link.active {
+  color: #fff !important;
+}
+
+.btn-gold {
+  background-color: var(--raiz-gold);
+  border-color: var(--raiz-gold);
+  color: var(--raiz-navy);
+  font-weight: 600;
+}
+
+.btn-gold:hover {
+  background-color: var(--raiz-gold-dark);
+  border-color: var(--raiz-gold-dark);
+  color: var(--raiz-navy);
+}
+
+.btn-outline-gold {
+  border-color: var(--raiz-gold);
+  color: var(--raiz-gold);
+}
+
+.btn-outline-gold:hover {
+  background-color: var(--raiz-gold);
+  color: var(--raiz-navy);
+}
+
+.bg-navy {
+  background-color: var(--raiz-navy);
+}
+
+.text-gold {
+  color: var(--raiz-gold);
+}
+
+.text-gold-dark {
+  color: var(--raiz-gold-dark);
+}
+
+.section-title {
+  font-size: 2.4rem;
+  color: var(--raiz-navy);
+  margin-bottom: 0.25rem;
+}
+
+.section-kicker {
+  color: var(--raiz-gold-dark);
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.08em;
+  font-size: 1.05rem;
+}
+
+/* Hero / Carousel */
+.hero-carousel .carousel-item {
+  height: 78vh;
+  min-height: 420px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-carousel .carousel-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(2,25,67,.55) 0%, rgba(2,25,67,.75) 100%);
+}
+
+.hero-carousel .carousel-caption {
+  z-index: 2;
+  bottom: 12%;
+}
+
+.hero-carousel .carousel-caption h1 {
+  font-size: 3.4rem;
+}
+
+/* Service cards */
+.card-service {
+  border: none;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(2,25,67,.12);
+  transition: transform .2s ease;
+}
+
+.card-service:hover {
+  transform: translateY(-6px);
+}
+
+.card-service img {
+  height: 260px;
+  object-fit: cover;
+}
+
+.price-tag {
+  color: var(--raiz-navy);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+}
+
+/* Team cards */
+.card-team img {
+  height: 320px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* Testimonials */
+.testimonial-card {
+  background: #fff;
+  border-left: 4px solid var(--raiz-gold);
+  border-radius: 2px;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.testimonial-avatar {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial-avatar-fallback {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--raiz-navy);
+  color: var(--raiz-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.3rem;
+}
+
+/* Footer */
+footer.site-footer {
+  background-color: var(--raiz-navy);
+  color: #cfd7e6;
+}
+
+footer.site-footer a {
+  color: var(--raiz-gold);
+  text-decoration: none;
+}
+
+footer.site-footer a:hover {
+  color: #fff;
+}
+
+/* WhatsApp floating button */
+.whatsapp-float {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  background-color: #25D366;
+  color: #fff;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,.3);
+  z-index: 999;
+}
+
+.whatsapp-float:hover {
+  color: #fff;
+  transform: scale(1.06);
+}
+
+/* Service detail page */
+.service-hero {
+  background-color: var(--raiz-navy);
+}
+
+.detail-thumb {
+  border-radius: 4px;
+  height: 260px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.ratio-video {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Map / accordion tweaks */
+.accordion-button:not(.collapsed) {
+  background-color: var(--raiz-navy);
+  color: var(--raiz-gold);
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 767px) {
+  .hero-carousel .carousel-caption h1 {
+    font-size: 2.1rem;
+  }
+  .hero-carousel .carousel-item {
+    height: 62vh;
+  }
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.map-embed {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 380px;
+  box-shadow: 0 6px 18px rgba(2,25,67,.12);
+}
+
+.map-embed-sm {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 260px;
+}

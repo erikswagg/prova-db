@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barba na Toalha Quente | Raiz Barbearia</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-raiz sticky-top py-2">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/image3.png" alt="Logo Raiz Barbearia">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto text-center gap-2">
+        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="index.html#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="empresa.html">Empresa</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#depoimentos">Depoimentos</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO DO SERVIÇO -->
+<div class="service-hero py-5">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-2">
+        <li class="breadcrumb-item"><a href="index.html" class="text-gold">Home</a></li>
+        <li class="breadcrumb-item"><a href="index.html#servicos" class="text-gold">Serviços</a></li>
+        <li class="breadcrumb-item active text-white" aria-current="page">Barba na Toalha Quente</li>
+      </ol>
+    </nav>
+    <h1 class="text-white brand-font display-4">Barba na Toalha Quente</h1>
+  </div>
+</div>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row g-5">
+
+      <!-- Fotos e vídeo -->
+      <div class="col-lg-7">
+        <div class="row g-3 mb-4">
+          <div class="col-6">
+            <img src="img/image9.jpeg" class="detail-thumb" alt="Barba na Toalha Quente - foto 1">
+          </div>
+          <div class="col-6">
+            <img src="img/image13.jpeg" class="detail-thumb" alt="Barba na Toalha Quente - foto 2">
+          </div>
+        </div>
+
+        <h2 class="h4 mb-3">Veja como é feito</h2>
+        <div class="ratio ratio-16x9 ratio-video mb-4">
+          <iframe src="https://www.youtube.com/embed/hY63k1efaXw" title="Vídeo sobre Barba na Toalha Quente" allowfullscreen></iframe>
+        </div>
+
+        <h2 class="h4 mb-3">Detalhes do serviço</h2>
+        <p>Ritual completo inspirado nas barbearias antigas: toalha quente para abrir os poros, espuma quente, navalha e massagem facial de finalização. A experiência mais pedida por quem busca relaxar além do corte.</p>
+        <ul class="list-group list-group-flush mb-4">
+          <li class="list-group-item d-flex justify-content-between"><span><i class="bi bi-clock text-navy"></i> Tempo médio</span> <strong>50 min</strong></li>
+          <li class="list-group-item d-flex justify-content-between"><span><i class="bi bi-calendar-week"></i> Dias de atendimento</span> <strong>Terça a sábado</strong></li>
+          <li class="list-group-item d-flex justify-content-between"><span><i class="bi bi-alarm"></i> Horário</span> <strong>9h às 20h</strong></li>
+          <li class="list-group-item d-flex justify-content-between"><span><i class="bi bi-info-circle"></i> Observação</span> <strong>Barboterapia tradicional completa</strong></li>
+        </ul>
+      </div>
+
+      <!-- Card lateral -->
+      <div class="col-lg-5">
+        <div class="card card-service">
+          <img src="img/image9.jpeg" class="card-img-top" alt="Barba na Toalha Quente">
+          <div class="card-body">
+            <h3 class="h4">Barba na Toalha Quente</h3>
+            <p class="price-tag mb-3">R$ 70,00</p>
+            <p class="text-muted">Toalha quente, espuma, navalha e massagem facial de finalização.</p>
+            <div class="d-grid gap-2">
+              <a href="#" class="btn btn-gold btn-lg" data-bs-toggle="modal" data-bs-target="#orcamentoModal">Orçamento</a>
+              <a href="https://wa.me/5549999911206" target="_blank" class="btn btn-outline-dark"><i class="bi bi-whatsapp"></i> Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MODAL ORÇAMENTO -->
+<div class="modal fade" id="orcamentoModal" tabindex="-1" aria-labelledby="orcamentoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-navy">
+        <h5 class="modal-title text-gold" id="orcamentoModalLabel">Solicitar orçamento — Barba na Toalha Quente</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="return false;">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Nome</label>
+              <input type="text" class="form-control" placeholder="Seu nome completo" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">E-mail</label>
+              <input type="email" class="form-control" placeholder="voce@email.com" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Telefone</label>
+              <input type="tel" class="form-control" placeholder="(49) 99999-9999" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Endereço</label>
+              <input type="text" class="form-control" placeholder="Rua e número">
+            </div>
+            <div class="col-md-5">
+              <label class="form-label">Cidade</label>
+              <input type="text" class="form-control" placeholder="Chapecó">
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">UF</label>
+              <input type="text" class="form-control" maxlength="2" placeholder="SC">
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Data desejada</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="col-12">
+              <label class="form-label">Observações</label>
+              <textarea class="form-control" rows="3" placeholder="Conte um pouco do que você procura"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-gold" data-bs-dismiss="modal">Enviar solicitação</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img src="img/image1.png" alt="Logo Raiz Barbearia" style="height:70px;">
+        <p class="mt-3 mb-0">"Estilo, Confiança e atitude."</p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="text-gold">Navegação</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="empresa.html">Empresa</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 class="text-gold">Contato</h5>
+        <p class="mb-1"><i class="bi bi-geo-alt"></i> Av. Fernando Machado, 963d — Centro, Chapecó - SC</p>
+        <p class="mb-1"><i class="bi bi-telephone"></i> (49) 499919-11206</p>
+        <p class="mb-1"><i class="bi bi-envelope"></i> erikricardorodrigues@gmail.com</p>
+        <div class="mt-2 fs-5">
+          <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/5549999911206" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-secondary my-4">
+    <p class="text-center mb-0 small">Desenvolvido por <strong>Erik Ricardo Rodrigues Carvalho</strong> — UNOESC Chapecó, Turma CHASIS-01 &middot; &copy; 2026 Raiz Barbearia</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/5549999911206" target="_blank" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
